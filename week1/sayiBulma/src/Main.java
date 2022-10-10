@@ -14,10 +14,10 @@ public class Main {
 		}
 		
 		if(varMi) {
-			System.out.println("Sayı mevcuttur.");
+			System.out.println("SayÄ± mevcuttur.");
 		}
 		else {
-			System.out.println("Sayı mevcut değildir.");
+			System.out.println("SayÄ± mevcut deÄŸildir.");
 		}
 
 	}

@@ -21,10 +21,10 @@ public class Main {
 		}
 		
 		if(sayi1==toplam2 && sayi2==toplam1) {
-			System.out.println("Bu iki sayı arkadaştır.");
+			System.out.println("Bu iki sayÄ± arkadaÅŸtÄ±r.");
 		}
 		else
-			System.out.println("Bu iki sayı arkadaş değildir.");
+			System.out.println("Bu iki sayÄ± arkadaÅŸ deÄŸildir.");
 
 	}
 

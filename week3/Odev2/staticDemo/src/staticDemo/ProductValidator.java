@@ -3,15 +3,15 @@ package staticDemo;
 public class ProductValidator {
 
 	static {
-		System.out.println("Static Yapýcý blok çalýþtý");
+		System.out.println("Static YapÃ½cÃ½ blok Ã§alÃ½Å£tÃ½");
 	}
 
 	public ProductValidator() {
-		System.out.println("Yapýcý blok çalýþtý");
+		System.out.println("YapÃ½cÃ½ blok Ã§alÃ½Å£tÃ½");
 	}
 
 	public static boolean isValid(Product product) {
-		if (product.price > 0 && product.name.isEmpty()) {
+		if (product.price > 0 && !product.name.isEmpty()) {
 			return true;
 		} else {
 			return false;
